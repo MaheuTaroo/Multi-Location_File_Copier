@@ -1,0 +1,9 @@
+C:\Users\pantu\source\repos\Multi-location File Copier\Multi-location File Copier\bin\Debug\Multi-location File Copier.exe
+C:\Users\pantu\source\repos\Multi-location File Copier\Multi-location File Copier\bin\Debug\Multi-location File Copier.pdb
+C:\Users\pantu\source\repos\Multi-location File Copier\Multi-location File Copier\obj\Debug\Multi-location File Copier.csprojAssemblyReference.cache
+C:\Users\pantu\source\repos\Multi-location File Copier\Multi-location File Copier\obj\Debug\Multi_location_File_Copier.FileCopier.resources
+C:\Users\pantu\source\repos\Multi-location File Copier\Multi-location File Copier\obj\Debug\Multi_location_File_Copier.Properties.Resources.resources
+C:\Users\pantu\source\repos\Multi-location File Copier\Multi-location File Copier\obj\Debug\Multi-location File Copier.csproj.GenerateResource.cache
+C:\Users\pantu\source\repos\Multi-location File Copier\Multi-location File Copier\obj\Debug\Multi-location File Copier.csproj.CoreCompileInputs.cache
+C:\Users\pantu\source\repos\Multi-location File Copier\Multi-location File Copier\obj\Debug\Multi-location File Copier.exe
+C:\Users\pantu\source\repos\Multi-location File Copier\Multi-location File Copier\obj\Debug\Multi-location File Copier.pdb
