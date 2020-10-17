@@ -64,6 +64,7 @@ namespace Multi_location_File_Copier
             else if (lbLocations.Items.Count == 0) MessageBox.Show("There are no selected directories to copy/move into", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             else
             {
+                bool error = false;
                 foreach (string file in lbFiles.Items)
                 {
                     foreach (string location in lbLocations.Items)
@@ -71,12 +72,31 @@ namespace Multi_location_File_Copier
                         bool exists = File.Exists($"{location}\\{Path.GetFileName(file)})");
                         if (!exists)
                         {
-                            if ((sender as Button).Name.Contains("Copy")) File.Copy(file, $"{location}\\{Path.GetFileName(file)}", exists ? MessageBox.Show($"The file {file} already exists in {location}. Do wou want to overwrite the file?", "Overwrite confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes : false);
+                            if ((sender as Button).Name.Contains("Copy"))
+                            {
+                                try
+                                {
+                                    File.Copy(file, $"{location}\\{Path.GetFileName(file)}", exists ? MessageBox.Show($"The file {file} already exists in {location}. Do wou want to overwrite the file?", "Overwrite confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes : false);
+                                }
+                                catch(UnauthorizedAccessException ex)// handle Access denied to folder
+                                {
+                                    MessageBox.Show("Access denied to folder: " + location, "Unauthorized Access" , MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                    error = true;
+                                }
+                            }
+
                             else Microsoft.VisualBasic.FileIO.FileSystem.MoveFile(file, $"{location}\\{Path.GetFileName(file)}", exists ? MessageBox.Show($"The file {file} already exists in {location}. Do wou want to overwrite the file?", "Overwrite confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes : false);
                         }
                     }
                 }
-                MessageBox.Show("All files copied/moved to the selected destinations", "Success", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                if (error == false)
+                {
+                    MessageBox.Show("All files copied/moved to the selected destinations", "Success", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+                else
+                {
+                    MessageBox.Show("Not All files copied/moved to the selected destinations", "Failure", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
         }
     }
