@@ -7,3 +7,13 @@ C:\Users\pantu\source\repos\Multi-location File Copier\Multi-location File Copie
 C:\Users\pantu\source\repos\Multi-location File Copier\Multi-location File Copier\obj\Debug\Multi-location File Copier.csproj.CoreCompileInputs.cache
 C:\Users\pantu\source\repos\Multi-location File Copier\Multi-location File Copier\obj\Debug\Multi-location File Copier.exe
 C:\Users\pantu\source\repos\Multi-location File Copier\Multi-location File Copier\obj\Debug\Multi-location File Copier.pdb
+C:\Users\Akl Mounir\Source\Repos\Multi-Location_File_Copier\Multi-location File Copier\bin\Debug\Multi-location File Copier.exe.config
+C:\Users\Akl Mounir\Source\Repos\Multi-Location_File_Copier\Multi-location File Copier\bin\Debug\Multi-location File Copier.exe
+C:\Users\Akl Mounir\Source\Repos\Multi-Location_File_Copier\Multi-location File Copier\bin\Debug\Multi-location File Copier.pdb
+C:\Users\Akl Mounir\Source\Repos\Multi-Location_File_Copier\Multi-location File Copier\obj\Debug\Multi-location File Copier.csprojAssemblyReference.cache
+C:\Users\Akl Mounir\Source\Repos\Multi-Location_File_Copier\Multi-location File Copier\obj\Debug\Multi_location_File_Copier.FileCopier.resources
+C:\Users\Akl Mounir\Source\Repos\Multi-Location_File_Copier\Multi-location File Copier\obj\Debug\Multi_location_File_Copier.Properties.Resources.resources
+C:\Users\Akl Mounir\Source\Repos\Multi-Location_File_Copier\Multi-location File Copier\obj\Debug\Multi-location File Copier.csproj.GenerateResource.cache
+C:\Users\Akl Mounir\Source\Repos\Multi-Location_File_Copier\Multi-location File Copier\obj\Debug\Multi-location File Copier.csproj.CoreCompileInputs.cache
+C:\Users\Akl Mounir\Source\Repos\Multi-Location_File_Copier\Multi-location File Copier\obj\Debug\Multi-location File Copier.exe
+C:\Users\Akl Mounir\Source\Repos\Multi-Location_File_Copier\Multi-location File Copier\obj\Debug\Multi-location File Copier.pdb
